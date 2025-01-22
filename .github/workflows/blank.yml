@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ru">
+  
+<head>
+   
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalabel=no, initial-scale=1.0, minimum-scale=1.">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">  
+    <link rel="shortcut icon" href="./imgs/logo.png.png" type="image/png">    
+    <title>GRLS.MVMN</title>
+    <link rel="stylesheet" href="./styles.css">
+    <style>
+      ul {
+       list-style-type: none; /* Убирает буллиты */
+      }
+     </style>
+</head>
+ 
+<body>
+
+
+
+  <header class="header">
+      <a class="header-logo" href="/">
+        <img
+        class="header-logo-image" 
+        src="./imgs/logo.png.png" 
+        alt="logo" 
+        width="40"  height="40"  loading="lazy"
+        />GRLS<br>MVMN
+      </a>
+      <nav class="header-menu">
+        <ul class="header-menu-list">
+          <li class="header-menu-item>">
+            <a class="header-menu-link is-current" href="/">Найти попутчицу</a>
+          </li>
+          <li class="header-menu-item>">
+            <a class="header-menu-link" href="/">Маршруты</a>
+          </li>
+          <li class="header-menu-item>">
+            <a class="header-menu-link" href="/">FAQ</a>
+          </li>
+
+         </ul>
+      </nav>
+      <div class="header-actions">
+        <button 
+           class="header-acc-button button"
+           type="button"
+           >
+           СОЗДАТЬ АККАУНТ
+
+        </button>
+        <button 
+           class="header-welcome-button button"
+           type="button"
+           >
+           ВОЙТИ
+
+        </button>
+
+
+      </div>
+
+
+    </header>
+   
+    <p class="aligncenter">
+      <img src="./imgs/картинкаПутешествиеДевушек.jpg" 
+          alt="изображение в центре параграфа"
+          width="1250" height="650" loading="lazy" />
+      <div class="text-picture">Находи<br> попутчицу<br>и планируй <br>свои<br>путешествия</div>     
+      <div class="icon-right">
+        <img class="header-logo-image" 
+        src="./imgs/logo.png.png"
+        alt="logo" 
+        width="100"  height="80"  loading="lazy"
+        />GRLS<br>MVMN
+  
+      
+      <select class="interest" name="ИНТЕРЕСЫ">
+        <option value="">ИНТЕРЕСЫ</option>
+        <option value="sport">СПОРТ</option>
+        <option value="books">КНИГИ</option>
+        <option value="movies">ФИЛЬМЫ</option>
+      </select>
+   
+      <select class="city" name="ГОРОД">
+        <option value="">ГОРОД</option>
+        <option value="Sain-Peterburg">САНКТ-ПЕТЕРБУРГ</option>
+        <option value="Moscow">МОСКВА</option>
+        <option value="Samara">САМАРА</option>
+      </select>
+    
+      <select class="age" name="ВОЗРАСТ">
+        <option value="">ВОЗРАСТ</option>
+        <option value="18-25">18-25</option>
+        <option value="26-35">26-35</option>
+        <option value="36-...">36-...</option>
+      </select>
+      <button 
+      class="found-button"
+      type="button"
+      >
+      НАЙТИ
+
+   </button>
+
+    </div>
+   </p>
+   <div>
+    <img
+        class="logo-under-picture" 
+        src="./imgs/logo.png.png" 
+        alt="logo" 
+        width="90"  height="90"  loading="lazy">
+   </div>
+   <div class="text-under-picture"> 
+    <p>GRLS<br>MVMN</p>    
+  </div>
+  <div class="text-servise">
+    - сервис по<br>поиску людей и <br>идей для путешествий
+  </div>
+  <button  class="welcome-button button" type="button">
+  ЗАРЕГИСТРИРОВАТЬСЯ
+</button>
+<div class="content1">Собери<br>крутую<br>компанию для<br>поездки
+  <img
+  class="number1" 
+  src="./imgs/цифра1.jpg" 
+  alt="num1" 
+  width="50"  height="50"  loading="lazy">
+  <img
+   class="picture1"
+   src="./imgs/card1.png"
+   alt="pic1"
+   width="230" height="180" loading="lazy">
+</div>
+<div class="content2">Вдохновляй<br>историями<br>своих<br>путешествий
+  <img
+  class="number2" 
+  src="./imgs/цифра2.jpg" 
+  alt="num2" 
+  width="50"  height="50"  loading="lazy">
+  <img 
+  class="picture2"
+  src="./imgs/card2.png"
+  alt="pic2"
+  width="250" height="180" loading="lazy">
+</div>
+<div class="content3">Объединяй<br>любимые<br>места<br>в маршруты 
+  <img
+   class="number3" 
+  src="./imgs/цифра3.jpg" 
+  alt="num3" 
+  width="50"  height="50"  loading="lazy">
+  <img 
+  class="picture3"
+  src="./imgs/card3.png"
+  alt="pic3"
+  align='bottom';
+  width="250" height="180" loading="lazy">
+
+</div>
+
+
+  </body>
+</html>
+
+    
